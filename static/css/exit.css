@@ -1,0 +1,38 @@
+    body {
+        font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #1d2026;
+        color: #fff;
+        position: relative;
+        margin: 0;
+        min-height: 100vh;
+    }
+
+#container{
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 70vh;
+    padding-right: 60px;
+    width: 100vw;
+    display: flex;
+    border: 2px red solid;
+    display: flex;
+    justify-content: space-between;
+}
+#container #img-div img {
+    height: 700px;
+}
+#container #img-div{
+padding: 50px;
+}
+
+#container #text-container{
+border: 2px solid red;
+text-align: center;
+padding-left: 40px;
+margin: auto;
+}
+#container img{
+    height: 90%;
+    /* padding-top: 60px; */
+
+}
